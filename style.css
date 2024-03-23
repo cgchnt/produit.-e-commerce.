@@ -1,0 +1,110 @@
+
+*{
+    font-family: 'Roboto Condensed', ;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ /*couleur surlignage texte
+ pour Firefox*/ 
+::-moz-selection {
+    background-color: blue;
+    color: #fff;
+}
+ /*pour Safari et Chrome */
+::selection {
+    background-color:rgb(13, 13, 90);
+    color: #fff;
+}
+
+html, body, .wrapper{
+    position: relative;
+    height: 100%;
+}
+
+.dsign {
+    background-color: transparent;
+    color: #0F056B;
+    border-bottom: solid #0F056B;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    right: 40px;
+    height: 70px;
+    align-items: center;
+}
+
+.logo {
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    font-size: 30px;
+    background: 40px;
+}
+
+.menus-site {
+    gap: 20px;
+    text-align: right;
+    list-style: none;
+    display: flex;
+    background-color: transparent;
+    justify-content: right;
+    padding-right: 30px;
+    right: 50px;
+}
+
+.menus > .lien:hover{
+    border-bottom: solid #0F056B;
+    bottom: 5px;
+}
+
+.presetation{
+    position: relative;
+    border: solid red;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.text-de-presentation {
+    justify-content: space-between;
+    border-bottom:  solid green;
+    height: 500px;
+    width: 600;
+}
+
+.image-de-presentation {
+    justify-content: right;
+    border: solid blue;
+}
+
+.text {
+    border-color: #0F056B;
+    font-size: 15px;
+    color: #fff;
+}
+
+.sous-titre {
+    color: black;
+}
+
+.button {
+    color: #ffff;
+    background-color: #0F056B;
+    border: none;
+    font-size: 30px;
+    border-radius: 100px;
+    width: 250px;
+    height: 80px;
+}
+
+.button:hover {
+    border: solid #0F056B;
+    color: #0F056B;
+    background-color: #fff;
+    font-size: 30px;
+    border-radius: 100px;
+    width: 250px;
+    height: 80px;
+}
